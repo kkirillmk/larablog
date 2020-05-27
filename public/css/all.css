@@ -13,14 +13,22 @@ nav {
 .card-img {
     height: 200px;
     background-position: center center;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
 }
 
-.card-img, .card-author {
+.card-img, .card-author, .card-date, .card-descr{
     margin-bottom: 10px;
 }
 
 .card-img__max {
     height: 500px;
+}
+
+.card-btn {
+    display: flex;
+}
+
+.card-btn a {
+    margin-right: 10px;
 }
